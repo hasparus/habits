@@ -49,7 +49,20 @@ const data: Record<number, Datum[]> = {
     {
       date: "2023-01-10",
       alcohol: 0,
-      instantCoffee: 0,
+      instantCoffee: 1,
+      coffee: 4,
+    },
+    {
+      date: "2023-01-11",
+      alcohol: 0,
+      instantCoffee: 1,
+      coffee: 3,
+    },
+    {
+      date: "2023-01-12",
+      alcohol: 0,
+      instantCoffee: 4,
+      coffee: 4,
     },
   ],
 };
