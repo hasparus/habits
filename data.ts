@@ -66,7 +66,7 @@ const data: Record<number, Datum[]> = {
     },
     {
       date: "2023-01-13",
-      alcohol: 0,
+      alcohol: 1,
       instantCoffee: 0,
       coffee: 1,
     },
