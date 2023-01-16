@@ -70,6 +70,24 @@ const data: Record<number, Datum[]> = {
       instantCoffee: 0,
       coffee: 1,
     },
+    {
+      date: "2023-01-14",
+      alcohol: 0,
+      instantCoffee: 0,
+      coffee: 1,
+    },
+    {
+      date: "2023-01-15",
+      alcohol: 0,
+      instantCoffee: 0,
+      coffee: 3,
+    },
+    {
+      date: "2023-01-16",
+      alcohol: 0,
+      instantCoffee: 1,
+      coffee: 1,
+    },
   ],
 };
 
