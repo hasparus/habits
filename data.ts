@@ -174,8 +174,67 @@ const data: Record<number, Datum[]> = {
     },
     {
       date: "2023-01-31",
-      alcohol: 0,
+      alcohol: 1, // Trying Carmenere wine the first time
       instantCoffee: 0,
+      coffee: 7,
+    },
+    {
+      date: "2023-02-01",
+      alcohol: 2, // Carmenere wine on the hike & beer at the hotel
+      instantCoffee: 0,
+      coffee: 2,
+    },
+    {
+      date: "2023-02-02",
+      alcohol: 1,
+      instantCoffee: 0,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-03",
+      alcohol: 2,
+      instantCoffee: 0,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-04",
+      alcohol: 4, // beer in KrossBar and the karaoke bar
+      instantCoffee: 0,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-05",
+      alcohol: 1,
+      coffee: 1,
+    },
+    {
+      date: "2023-02-06",
+      alcohol: 0,
+      coffee: 3,
+    },
+    {
+      date: "2023-02-07",
+      alcohol: 0,
+      coffee: 8,
+    },
+    {
+      date: "2023-02-08",
+      alcohol: 1, // Baby Yoda in Insert Coin game pub with Joel
+      coffee: 2,
+    },
+    {
+      date: "2023-02-09",
+      alcohol: 0,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-10",
+      alcohol: 0,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-11",
+      alcohol: 0,
       coffee: 3,
     },
   ],
@@ -190,7 +249,7 @@ interface Datum {
   /**
    * Counted in cups
    */
-  instantCoffee: number;
+  instantCoffee?: number;
   /**
    * Counted in cups, excluding instant coffee
    */
