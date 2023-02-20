@@ -242,6 +242,46 @@ const data: Record<number, Datum[]> = {
       alcohol: 0,
       coffee: 1,
     },
+    {
+      date: "2023-02-13",
+      alcohol: 0,
+      coffee: 5,
+    },
+    {
+      date: "2023-02-14",
+      alcohol: 0,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-15",
+      alcohol: 0,
+      coffee: 6,
+    },
+    {
+      date: "2023-02-16",
+      alcohol: 0,
+      coffee: 2,
+    },
+    {
+      date: "2023-02-17",
+      alcohol: 0,
+      coffee: 1,
+    },
+    {
+      date: "2023-02-18",
+      alcohol: 0,
+      coffee: 7,
+    },
+    {
+      date: "2023-02-19",
+      alcohol: 1,
+      coffee: 4,
+    },
+    {
+      date: "2023-02-20",
+      alcohol: 0,
+      coffee: 1,
+    },
   ],
 };
 
